@@ -27,8 +27,11 @@ import {
 } from "../assets";
 import next from '../assets/tech/next.png';
 import invoice from '../assets/invoice.png';
-import prime from '../assets/prime.png'
-
+import prime from '../assets/prime.png';
+import best from '../assets/best.png'
+import staff from '../assets/staff.png';
+import real from '../assets/real.png';
+import monax from '../assets/monax.png'
 
 export const navLinks = [
   {
@@ -236,7 +239,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: best,
     source_code_link: "https://github.com/Nazma1997/best-price",
     live_site_link : "https://bestprice.co.ke/",
     server_site_link : "https://github.com/Nazma1997/best-price"
@@ -277,7 +280,7 @@ const projects = [
 
   
    {
-    name: "Corporate Website",
+    name: "Staffing Website",
     description:
       "The corporate website serves as the digital presence for a company, showcasing its brand, products, and services. It provides comprehensive information about the company's history, mission, and values. With a professional and user-friendly design, the corporate website aims to establish credibility and foster engagement with its target audience.",
     tags: [
@@ -302,7 +305,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: prime,
+    image: staff,
     source_code_link: "https://github.com/Nazma1997/mhSolutions.com",
     live_site_link : "https://mhsolutions.netlify.app/",
     server_site_link : "https://github.com/Nazma1997/mh-backend"
@@ -335,7 +338,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: prime,
+    image: real,
     source_code_link: "https://github.com/Nazma1997/real-state-frontend-site",
     live_site_link : "https://real-state-frontend-site.vercel.app/",
     server_site_link : "https://github.com/Nazma1997/real-state-backend-site"
@@ -386,10 +389,10 @@ const projects = [
       },
      
     ],
-    image: prime,
-    source_code_link: "https://github.com/Nazma1997/profo-bootstrap",
-    live_site_link : "https://admiring-hodgkin-b40fcd.netlify.app/",
-    server_site_link : "https://github.com/Nazma1997/profo-bootstrap"
+    image: monax,
+    source_code_link: "https://github.com/Nazma1997/Monax.com",
+    live_site_link : "https://monax-website.netlify.app/",
+    server_site_link : "https://github.com/Nazma1997/Monax.com"
   },
   
   
