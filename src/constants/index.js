@@ -26,7 +26,8 @@ import {
   
 } from "../assets";
 import next from '../assets/tech/next.png';
-import invoice from '../assets/invoice.png'
+import invoice from '../assets/invoice.png';
+import prime from '../assets/prime.png'
 
 
 export const navLinks = [
@@ -100,10 +101,10 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  // {
-  //   name: "Three JS",
-  //   icon: threejs,
-  // },
+  {
+    name: "Three JS",
+    icon: typescript,
+  },
   {
     name: "git",
     icon: git,
@@ -124,7 +125,7 @@ const experiences = [
     company_name: "Bitpixel Software Solution",
     icon: starbucks,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: " December, 2022 -February,2023",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -133,44 +134,19 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
+    title: "Software Engineer(Backend-Developer)",
+    company_name: "Digital Marketing & Consultancy  Services, Mirpur,Dhaka",
     icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "October, 2022 - December,2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using Express.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+  
 ];
 
 const testimonials = [
@@ -222,12 +198,149 @@ const projects = [
         name: "tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "express.js",
+        color: "pink-text-gradient",
+      },
     ],
     image: carrent,
     source_code_link: "https://github.com/Nazma1997/blog-site",
     live_site_link : "https://bloging-site.netlify.app/",
     server_site_link : "https://github.com/Nazma1997/blog-server"
   },
+
+ 
+  {
+    name: "Ecommerce Website",
+    description:
+      "The ecommerce website is a virtual marketplace where users can buy and sell products online. It offers a wide range of products, secure payment options, and convenient shopping features, providing a seamless shopping experience for customers worldwide.",
+    tags: [
+      {
+        name: "next",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "red-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "express.js",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: carrent,
+    source_code_link: "https://github.com/Nazma1997/best-price",
+    live_site_link : "https://bestprice.co.ke/",
+    server_site_link : "https://github.com/Nazma1997/best-price"
+  },
+ 
+  
+  {
+    name: "Corporate Website",
+    description:
+      "The corporate website serves as the digital presence for a company, showcasing its brand, products, and services. It provides comprehensive information about the company's history, mission, and values. With a professional and user-friendly design, the corporate website aims to establish credibility and foster engagement with its target audience.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "red-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "express.js",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: prime,
+    source_code_link: "https://corporate-website-main.vercel.app/",
+    live_site_link : "https://corporate-website-main.vercel.app/",
+    server_site_link : "https://github.com/Nazma1997/ServerSide"
+  },
+
+  
+   {
+    name: "Corporate Website",
+    description:
+      "The corporate website serves as the digital presence for a company, showcasing its brand, products, and services. It provides comprehensive information about the company's history, mission, and values. With a professional and user-friendly design, the corporate website aims to establish credibility and foster engagement with its target audience.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "red-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "express.js",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: prime,
+    source_code_link: "https://github.com/Nazma1997/mhSolutions.com",
+    live_site_link : "https://mhsolutions.netlify.app/",
+    server_site_link : "https://github.com/Nazma1997/mh-backend"
+  },
+
+ 
+  {
+    name: "Real State Website",
+    description:
+      "The real estate website is a platform that connects buyers, sellers, and renters in the property market. It offers a comprehensive listing of properties for sale or rent, along with detailed information, high-quality images, and search filters to help users find their desired property. With user-friendly navigation and contact options, the website facilitates smooth transactions and promotes informed decision-making in the real estate industry.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "redux",
+        color: "red-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "express.js",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: prime,
+    source_code_link: "https://github.com/Nazma1997/real-state-frontend-site",
+    live_site_link : "https://real-state-frontend-site.vercel.app/",
+    server_site_link : "https://github.com/Nazma1997/real-state-backend-site"
+  },
+  
   {
     name: "Invoice generator",
     description:
@@ -248,6 +361,38 @@ const projects = [
     live_site_link : "https://leafy-pavlova-514a93.netlify.app/",
     
   },
+  
+ 
+  {
+    name: "PSD to HTML",
+    description:
+      "PSD to HTML design is a process of converting a Photoshop design file (PSD) into a functional HTML code. It involves slicing and coding the design elements, such as layout, graphics, and typography, into HTML and CSS to create a fully responsive and interactive web page. .",
+    tags: [
+      {
+        name: "html5",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css3",
+        color: "red-text-gradient",
+      },
+      {
+        name: "bootstrap",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      },
+     
+    ],
+    image: prime,
+    source_code_link: "https://github.com/Nazma1997/profo-bootstrap",
+    live_site_link : "https://admiring-hodgkin-b40fcd.netlify.app/",
+    server_site_link : "https://github.com/Nazma1997/profo-bootstrap"
+  },
+  
+  
   
 ];
 
